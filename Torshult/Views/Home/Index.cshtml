@@ -1,0 +1,48 @@
+﻿<div class="jumbotron">
+    <h1>Välkomen till vackra Tors</h1>
+</div>
+<div class="row">
+    <div class="col-md-4" id="partOne">
+        <h2>Här är en fin text</h2>
+        <p>bla bla bla</p>
+    </div>
+
+    <div class="col-md-4" id="partTwo">
+        <div class="owl-carousel" id="owl-pictures">
+            <div class="item"><img src="~/Images/forestPath.jpg" alt="Stig ner till sjön" /></div>
+            <div class="item"><img src="~/Images/frontFromStable.jpg" alt="Huset sett från logen" /></div>
+            <div class="item"><img src="~/Images/stable.jpg" alt="Logen" /></div>
+            <div class="item"><img src="~/Images/road.jpg" alt="Vägen" /></div>
+        </div>
+    </div>
+
+    <div class="col-md-4" id="partThree">
+        Kontaktuppgifter:
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        $(".owl-carousel").owlCarousel(
+        {
+            slideSpeed: 200,
+            paginationSpeed: 800,
+
+            autoPlay: false,
+            goToFirst: true,
+            goToFirstSpeed: 1000,
+
+            navigation: false,
+            navigationText: ["prev", "next"],
+            pagination: true,
+            paginationNumbers: true,
+
+            responsive: true,
+            itemsDesktop: [1199, 4],
+            itemsDesktopSmall: [980, 3],
+            itemsTablet: [768, 2],
+            itemsMobile: [479, 1]
+        });
+    });
+</script>
