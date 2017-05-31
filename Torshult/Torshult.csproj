@@ -187,6 +187,9 @@
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\jquery.smooth.scroll.css" />
+    <Content Include="Content\css\jquery.smooth.scroll.min.css" />
+    <Content Include="Content\images\smooth_scroll_arrow.png" />
     <Content Include="Content\owl.carousel.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -220,10 +223,14 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\less\jquery.smooth.scroll.less" />
+    <Content Include="Content\css\jquery.smooth.scroll.css.map" />
     <None Include="Properties\PublishProfiles\Torshult - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery.smooth.scroll-1.0.1.js" />
+    <Content Include="Scripts\jquery.smooth.scroll-1.0.1.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\owl.carousel.js" />
     <Content Include="Scripts\respond.js" />
@@ -242,6 +249,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Scripts\jquery.smooth.scroll-1.0.1.min.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
