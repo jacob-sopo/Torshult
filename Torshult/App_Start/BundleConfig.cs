@@ -24,9 +24,11 @@ namespace Torshult
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
+            bundles.Add(new StyleBundle("~/Content/basicCss").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/css/jquery.smooth.scroll.css",
+                      "~/Content/owl.carousel.css"));
         }
     }
 }

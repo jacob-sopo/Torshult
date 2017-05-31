@@ -17,10 +17,10 @@ textarea {
 }
 
 /*Flexbox*/
-​.header {
+/*​.header {
     flex: none;
     height: 100px;
-}
+}*/
 
 .vertical-box {
     display: flex;
