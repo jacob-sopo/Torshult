@@ -9,20 +9,20 @@
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-    @Scripts.Render("~/bundles/owlCarousel")
+    @Scripts.Render("~/bundles/owlCarousel") 
+    @Scripts.Render("bundles/torshult")
 </head>
 <body>
 
-    <div class="container">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>Berg Corp 2017</p>
-        </footer>
-    </div>
+    
+    @RenderBody()
+    <hr/>
+@*<footer>
+    <p>Berg Corp 2017</p>
+</footer>*@
 
 
 
-    @RenderSection("scripts", required: false)
+@RenderSection("scripts", required: false)
 </body>
 </html>

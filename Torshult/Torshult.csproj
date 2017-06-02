@@ -235,6 +235,7 @@
     <Content Include="Scripts\owl.carousel.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\torshult.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -250,6 +251,9 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery.smooth.scroll-1.0.1.min.js.map" />
+    <Content Include="Views\Home\BlockUpper.cshtml" />
+    <Content Include="Views\Home\BlockMiddle.cshtml" />
+    <Content Include="Views\Home\BlockBottom.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
