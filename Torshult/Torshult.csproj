@@ -196,11 +196,14 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\crayfish.jpg" />
     <Content Include="Images\forestPath.jpg" />
     <Content Include="Images\frontFromStable.jpg" />
     <Content Include="Images\frontOfHouse.jpg" />
+    <Content Include="Images\lakeSunligth.jpg" />
     <Content Include="Images\road.jpg" />
     <Content Include="Images\stable.jpg" />
+    <Content Include="Images\stonewall.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />

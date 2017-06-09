@@ -1,33 +1,35 @@
 ﻿
-<div class="container-fluid blok1">
+<div class="container-fluid blok1 smooth">
     @Html.Partial("BlockUpper")
 </div>
 
-<div class="container-fluid blok2">
+<div class="container-fluid blok2 smooth">
     @Html.Partial("BlockMiddle")
 </div>
 
-<div class="container-fluid blok3">
+<div class="container-fluid blok3 smooth">
     @Html.Partial("BlockBottom")
 </div>
     
 
 <script type="text/javascript">
-    $(document).ready(function() {
-        $(".owl-carousel").owlCarousel(
-        {
-                margin: 10,
-                items: 2,
-            lazyLoad: true,
-            responsiveClass: true,
-            center: true
+
+    $('.smooth').on('click',
+        function () {
+            $.smoothScroll({
+                scrollElement: $('body'),
+                scrollTarget: '#' + this.id
+            });
+
+            return false;
         });
-    });
 </script>
 
     
 
 @*https://codepen.io/nangko/pen/VYdJdm*@
+
+@*https://codepen.io/abbasarezoo/pen/razXdN*@
 
 @*SASS (förbättrar CSS), postCSS (Fixar alla vendor specifics så du slipper tänka på att skriva CSS för olika webbläsare), ES2017 (Modern Javascript), Minifiering av dina JS & CSS resurser*@
 

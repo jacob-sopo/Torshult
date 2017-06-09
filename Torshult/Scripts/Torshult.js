@@ -1,32 +1,27 @@
 ﻿$(document).ready(function () {
     $(".owl-carousel").owlCarousel(
         {
-            //items: 1,
-            //itemsCustom: false,
-            //itemsDesktop: [1199, 1],
-            //itemsDesktopSmall: [980, 1],
-            //itemsTablet: [768, 1],
-            //itemsTabletSmall: false,
-            //itemsMobile: [479, 1],
-            //singleItem: false,
-            //itemsScaleUp: false,
-            //slideBy: 1
-
-            loop: true,
             margin: 10,
             lazyLoad: true,
-            animateOut: 'fadeOut',
+            //animateOut: 'fadeOut',
+            //items: 1,
+            center: true,
+            pagination: true,
             responsiveClass: true,
-            items: 1
+            dots:true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                300: {
+                    items: 3
+                },
+                800: {
+                    items: 5,
+                    loop: false
+                }
+            }
         });
+
 });
 
-$('.smooth').on('click',
-    function () {
-        $.smoothScroll({
-            scrollElement: $('body'),
-            scrollTarget: '#' + this.id
-        });
-
-        return false;
-    });
