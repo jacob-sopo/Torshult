@@ -1,7 +1,57 @@
-﻿<div class="row">
-    <div class="container">
-        <div class="col-md-12" id="bottom">
-            Kontaktuppgifter: Pea Sopo
-        </div>
+﻿
+<div class="row">
+    <div class="col-md-6 center" id="bottom">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="txtFirstName" id="lblFirstName" class="control-label col-sm-2">
+                    Förnamn:
+                </label>
+                <div class="col-sm-4">
+                    <input type="text" id="txtFirstName" class="form-control" placeholder="Ange förnamn" />
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <label for="txtSurname" id="lblSurName" class="control-label col-sm-2">
+                    Efternamn:
+                </label>
+                <div class="col-sm-4">
+                    <input type="text" id="txtSurname" class="form-control" placeholder="Ange Efternamn" />
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <label for="txtMail" id="lblMail" class="control-label col-sm-2">
+                    Mail:
+                </label>
+                <div class="col-sm-4">
+                    <input type="email" id="txtMail" class="form-control" placeholder="Ange email" />
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <label for="txtPhoneNumber" id="lblPhoneNumber" class="control-label col-sm-2">
+                    Telefon:
+                </label>
+                <div class="col-sm-4">
+                    <input type="tel" id="txtPhoneNumber" class="form-control" placeholder="Ange telefonnummer" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="txtMessage" id="lblMessage" class="control-label col-sm-2">Meddelande: </label>
+                <div class="col-sm-4">
+                    <textarea id="txtMessage" rows="5" class="form-control" placeholder="Meddelande"></textarea>
+                </div>
+            </div>
+        </form>
+
+        <input type="submit" class="btn-default" title="Skicka"/>
     </div>
 </div>
+@*<footer>
+    <p>Berg Corp 2017</p>
+</footer>*@

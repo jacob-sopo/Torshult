@@ -31,7 +31,8 @@ namespace Torshult
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
                       "~/Content/css/jquery.smooth.scroll.css",
-                      "~/Content/owl.carousel.css"));
+                      "~/Content/owl.carousel.css",
+                      "~/Content/owl.theme.default.css"));
         }
     }
 }

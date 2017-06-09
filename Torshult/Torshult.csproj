@@ -191,6 +191,8 @@
     <Content Include="Content\css\jquery.smooth.scroll.min.css" />
     <Content Include="Content\images\smooth_scroll_arrow.png" />
     <Content Include="Content\owl.carousel.css" />
+    <Content Include="Content\owl.theme.default.css" />
+    <Content Include="Content\owl.theme.default.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
