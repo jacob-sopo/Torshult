@@ -1,12 +1,12 @@
 ﻿$(document).ready(function () {
     $(".owl-carousel").owlCarousel(
         {
-            margin: 10,
-            lazyLoad: true,
-            //animateOut: 'fadeOut',
-            //items: 1,
+            items: 2,
+            loop: true,
             center: true,
-            pagination: true,
+            margin:10,
+            lazyLoad: true,
+            pagination:true,
             responsiveClass: true,
             dots:true,
             responsive: {
@@ -17,8 +17,7 @@
                     items: 3
                 },
                 800: {
-                    items: 5,
-                    loop: false
+                    items: 5
                 }
             }
         });
