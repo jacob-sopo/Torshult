@@ -22,5 +22,12 @@
             }
         });
 
+   
+
 });
+
+//Fix jquery bug in owl carosuel for jquery 3.0
+$.fn.andSelf = function () {
+    return this.addBack.apply(this, arguments);
+}
 
