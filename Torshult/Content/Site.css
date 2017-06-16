@@ -67,14 +67,14 @@ html, body {
     padding-top: 3%;
 
     background: white;
-    opacity: 0.9;
+    /*opacity: 0.9;*/
 
     text-align: center;
 }
 
 #middleBlock {
     height: 80%;
-    width: 80%;
+    width: 100%;
     padding-top: 3%;
     background: #f4f7f6;
     text-align: center;
@@ -103,9 +103,9 @@ html, body {
     margin-right: 5%;
 }
 
-/*Ipad*/
+/*Tablet*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-
+ 
     #middleBlock {
         height: 80%;
         width: 80%;
@@ -140,40 +140,54 @@ html, body {
     }
 }
 
-/*Iphone*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+/*Phone*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+    #main {
+        height: 100%;
+        width: 90%;
+        padding-top: 3%;
+        background: white;
+        text-align: center;
+    }
+    
     #middleBlock {
         height: 80%;
-        width: 80%;
+        width: 100%;
         padding-top: 3%;
         background: #f4f7f6;
+
+
+
         text-align: center;
         display: flex;
         flex-direction: column;
 
         margin-top: 20%;
-
-
     }
 
     #middle1 {
-        height: 75%;
-        width: 80%;
+        height: 45%;
+        width: 100%;
         padding-top: 3%;
-        margin-right: 3%;
         background: white;
         text-align: center;
+
+        margin-left: 5%;
+        margin-right: 5%
     }
 
     #middle2 {
-        height: 75%;
-        width: 80%;
+        height: 55%;
+        width: 100%;
         padding-top: 3%;
         margin-right: 3%;
         background: white;
         text-align: center;
+        
         margin-top: 5%;
-        margin-left: 10%;
+        margin-left: 5%;
+        margin-right: 5%
     }
 }
 
@@ -218,6 +232,17 @@ html, body {
 .center {
     float: none;
     margin: 0 auto;
+}
+
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+
+.btn-primary.outline {
+    border: 2px solid #0099cc;
+    color: #0099cc;
 }
 
 
