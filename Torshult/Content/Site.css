@@ -45,19 +45,17 @@ html, body {
 
 .blok2 {
     height: 100%;
-    background: lightblue;
+    background: #f4f7f6;
     background-position: center bottom;
     /*opacity: 0.5;*/
-   
-    padding-top: 15%;
+    padding-top: 5%;
 }
 
 .blok3 {
     height: 100%;
-    background: lightgreen;
+    background: #f4f7f6;
     background-position: center bottom;
     /*opacity: 0.5;*/
-    
     padding-top: 15%;
 }
 
@@ -74,12 +72,109 @@ html, body {
     text-align: center;
 }
 
-#middle {
-    height: 100%;
-    width: 60%;
+#middleBlock {
+    height: 80%;
+    width: 80%;
+    padding-top: 3%;
+    background: #f4f7f6;
+    text-align: center;
+}
+
+#middle1 {
+    height: 75%;
+    width: 30%;
+    padding-top: 3%;
+    margin-right: 3%;
+    background: white;
+    text-align: center;
+
+    float: left;
+    margin-left: 10%;
+}
+
+#middle2 {
+    height: 75%;
+    width: 50%;
     padding-top: 3%;
     background: white;
     text-align: center;
+
+    float: right;
+    margin-right: 5%;
+}
+
+/*Ipad*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    #middleBlock {
+        height: 80%;
+        width: 80%;
+        padding-top: 3%;
+        background: #f4f7f6;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column
+    }
+    
+    #middle1 {
+        height: 75%;
+        width: 80%;
+        padding-top: 3%;
+        margin-right: 3%;
+        background: white;
+        text-align: center;
+
+    }
+
+    #middle2 {
+        height: 75%;
+        width: 80%;
+        padding-top: 3%;
+        margin-right: 3%;
+        background: white;
+        text-align: center;
+        
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+}
+
+/*Iphone*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #middleBlock {
+        height: 80%;
+        width: 80%;
+        padding-top: 3%;
+        background: #f4f7f6;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 20%;
+
+
+    }
+
+    #middle1 {
+        height: 75%;
+        width: 80%;
+        padding-top: 3%;
+        margin-right: 3%;
+        background: white;
+        text-align: center;
+    }
+
+    #middle2 {
+        height: 75%;
+        width: 80%;
+        padding-top: 3%;
+        margin-right: 3%;
+        background: white;
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
 }
 
 #bottom {
