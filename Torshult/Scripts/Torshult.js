@@ -18,34 +18,11 @@
         owl.trigger("stop.owl.autoplay");
     });
 
-    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-        event.preventDefault();
-        $(this).ekkoLightbox({
-            alwaysShowClose: true,
-            height: 90
+    $('[data-fancybox]').fancybox({
+        loop: true
     });
-    });    
 
-    //$(document).on('click',
-    //    '[data-toggle="lightbox"]',
-    //    function (event) {
-    //        event.preventDefault();
-    //        return $(this).ekkoLightbox({
-    //            //onShown: function () {
-    //            //    if (window.console) {
-    //            //        return console.log('Checking our the events huh?');
-    //            //    }
-    //            //},
-    //            //onNavigate: function (direction, itemIndex) {
-    //            //    if (window.console) {
-    //            //        return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
-    //            //    }
-    //            //},
-    //            showArrows: true,
-    //            alwaysShowClose: true
-    //        });
-    //    });
-
+   
 
 });
 

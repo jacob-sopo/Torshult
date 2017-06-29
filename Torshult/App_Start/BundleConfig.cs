@@ -25,14 +25,16 @@ namespace Torshult
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/Scripts/respond.js",
+                      "~/Scripts/jquery.fancybox.js"));
 
             bundles.Add(new StyleBundle("~/Content/basicCss").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
                       "~/Content/css/jquery.smooth.scroll.css",
                       "~/Content/owl.theme.default.css",
-                      "~/Content/owl.carousel.css"));
+                      "~/Content/owl.carousel.css",
+                      "~/Content/jquery.fancybox.css"));
         }
     }
 }

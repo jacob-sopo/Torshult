@@ -193,8 +193,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\jquery.smooth.scroll.css" />
     <Content Include="Content\css\jquery.smooth.scroll.min.css" />
-    <Content Include="Content\ekko-lightbox.css" />
     <Content Include="Content\images\smooth_scroll_arrow.png" />
+    <Content Include="Content\jquery.fancybox.css" />
     <Content Include="Content\owl.carousel.css" />
     <Content Include="Content\owl.theme.default.css" />
     <Content Include="Content\owl.theme.default.min.css" />
@@ -246,11 +246,11 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
-    <Content Include="Scripts\ekko-lightbox.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />
     <Content Include="Scripts\jquery-3.0.0.slim.js" />
     <Content Include="Scripts\jquery-3.0.0.slim.min.js" />
+    <Content Include="Scripts\jquery.fancybox.js" />
     <Content Include="Scripts\jquery.smooth.scroll-1.0.1.js" />
     <Content Include="Scripts\jquery.smooth.scroll-1.0.1.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
