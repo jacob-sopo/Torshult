@@ -1,7 +1,8 @@
-﻿/*body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}*/
+﻿body {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    color: #333;
+}
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
